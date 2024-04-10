@@ -2,7 +2,6 @@
     import "tailwindcss/tailwind.css"
     import "../app.css";
 
-    let knapp0 = "^"
     let knapp1 = "1"
     let knapp2 = "2"
     let knapp3 = "3"
@@ -24,28 +23,28 @@
             <div id="knappe div" class="flex flex-col absolute items-center h-full w-2/3">
                 <div class="mt-1"></div>
                 <div class="flex w-full mt-44 items-center h-10 ">
-                    <button class="flex w-6 ml-8 h-6 btn btn1 rounded-xl items-center justify-center border-2 border-blue-600 bg-slate-200" on:click={() => {const section1 = document.getElementById('section1')
+                    <button class="flex w-6 ml-8 h-6 btn btn1 rounded-xl items-center justify-center border-2 border-green-600 bg-slate-200" on:click={() => {const section1 = document.getElementById('section1')
                      section1.scrollIntoView({ behavior: 'smooth' });}} on:mouseenter={()=> {knapp1 = "Vifte"}} on:mouseleave={()=> {knapp1 = "1"}}>{knapp1}</button>
                 </div>
                 <div class="flex w-full mt-1 items-center h-10 ">
                     <div class="ml-3"></div>
-                    <button class="flex w-6 ml-36 h-6 btn btn2 rounded-xl items-center justify-center border-2 border-blue-600 bg-slate-200" on:click={() => {const section2 = document.getElementById('section2')
+                    <button class="flex w-6 ml-36 h-6 btn btn2 rounded-xl items-center justify-center border-2 border-green-600 bg-slate-200" on:click={() => {const section2 = document.getElementById('section2')
                         section2.scrollIntoView({ behavior: 'smooth' });}} on:mouseenter={()=> {knapp2 = "CPU"}} on:mouseleave={()=> {knapp2 = "2"}}>{knapp2}</button>
-                    <button class="flex w-6 ml-1 h-6 btn btn3 rounded-xl items-center justify-center border-2 border-blue-600 bg-slate-200" on:click={() => {const section3 = document.getElementById('section3')
+                    <button class="flex w-6 ml-1 h-6 btn btn3 rounded-xl items-center justify-center border-2 border-green-600 bg-slate-200" on:click={() => {const section3 = document.getElementById('section3')
                         section3.scrollIntoView({ behavior: 'smooth' });}} on:mouseenter={()=> {knapp3 = "kjøler"}} on:mouseleave={()=> {knapp3 = "3"}}>{knapp3}</button>
-                    <button class="flex w-6 ml-11 h-6 btn btn4 rounded-xl items-center justify-center border-2 border-blue-600 bg-slate-200" on:click={() => {const section4 = document.getElementById('section4')
+                    <button class="flex w-6 ml-11 h-6 btn btn4 rounded-xl items-center justify-center border-2 border-green-600 bg-slate-200" on:click={() => {const section4 = document.getElementById('section4')
                         section4.scrollIntoView({ behavior: 'smooth' });}} on:mouseenter={()=> {knapp4 = "RAM"}} on:mouseleave={()=> {knapp4 = "4"}}>{knapp4}</button>
                 </div>
                 <div class="flex w-full mt-5 items-center h-10  ">
-                    <button class="flex w-6 ml-24 h-6 btn btn5 rounded-xl items-center justify-center border-2 border-blue-600 bg-slate-200" on:click={() => {const section5 = document.getElementById('section5')
+                    <button class="flex w-6 ml-24 h-6 btn btn5 rounded-xl items-center justify-center border-2 border-green-600 bg-slate-200" on:click={() => {const section5 = document.getElementById('section5')
                         section5.scrollIntoView({ behavior: 'smooth' });}} on:mouseenter={()=> {knapp5 = "Hovedkort"}} on:mouseleave={()=> {knapp5 = "5"}}>{knapp5}</button>
                 </div>
                 <div class="flex w-full mt-10 items-center h-10  ">
-                    <button class="flex w-6 ml-20 h-6 btn btn6 rounded-xl items-center justify-center border-2 border-blue-600 bg-slate-200" on:click={() => {const section6 = document.getElementById('section6')
+                    <button class="flex w-6 ml-20 h-6 btn btn6 rounded-xl items-center justify-center border-2 border-green-600 bg-slate-200" on:click={() => {const section6 = document.getElementById('section6')
                         section6.scrollIntoView({ behavior: 'smooth' });}} on:mouseenter={()=> {knapp6 = "GPU"}} on:mouseleave={()=> {knapp6 = "6"}}>{knapp6}</button>
                 </div>
                 <div class="flex w-full mt-36 items-center h-8  ">
-                    <button class="flex w-6 ml-20 h-6 btn btn7 rounded-xl items-center justify-center border-2 border-blue-600 bg-slate-200" on:click={() => {const section7 = document.getElementById('section7')
+                    <button class="flex w-6 ml-20 h-6 btn btn7 rounded-xl items-center justify-center border-2 border-green-600 bg-slate-200" on:click={() => {const section7 = document.getElementById('section7')
                         section7.scrollIntoView({ behavior: 'smooth' });}} on:mouseenter={()=> {knapp7 = "PSU"}} on:mouseleave={()=> {knapp7 = "7"}}>{knapp7}</button>
                 </div>
             </div>
@@ -57,7 +56,7 @@
         </div>
         <div class="flex flex-col h-full w-1/2   justify-center items-center ">
             <span class="text-3xl mb-5">Vifter</span>
-            <span class="flex p-3 items-center justify-center text-xl bg-gray-400 rounded-xl w-3/5 h-2/5">Vifter i en pc er vanligvis brukt til å suge kald luft inn og dytte varm luft ut.Når en bygger en pc er det viktig å ha riktig mengde inntak og uttak. Hvis en har for mye inntak blir det for høyt trykk og hvis en har for mye uttak blir det nesten et vakum. Begge deler kan resultere i værre termisk ytelse.</span>
+            <span class="flex p-3 items-center justify-center text-xl bg-gray-400 rounded-xl w-3/5 h-2/5">Vifter i en pc er vanligvis brukt til å suge kald luft inn og dytte varm luft ut. Når en bygger en pc er det viktig å ha riktig mengde inntak og uttak. Hvis en har for mye inntak blir det for høyt trykk og hvis en har for mye uttak blir det nesten et vakum. Begge deler kan resultere i værre termisk ytelse.</span>
             <button class="flex btn justify-center border-2 border-blue-600 bg-slate-200 rounded w-1/12 h-10 mt-2 text-5xl" on:click={() => {const section0 = document.getElementById('section0')
                 section0.scrollIntoView({ behavior: 'smooth' });}}>^</button>
         </div>
